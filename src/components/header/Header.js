@@ -9,7 +9,9 @@ function Header() {
     <>
       <header>
         <div className="d-flex justify-content-between nav align-center">
-          <div className="logo">William James Sidis</div>
+          <a href="#">
+            <div className="logo">William James Sidis</div>
+          </a>
           <div className={hamburgerOpen ? "nav-brand expanded" : "nav-brand"}>
             <ul className="nav-bar d-flex">
               <li className="nav-list ml-2 p-1">
