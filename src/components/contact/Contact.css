@@ -1,0 +1,17 @@
+.email-input {
+  padding: 1rem 2rem;
+  width: 100%;
+  border-radius: 2rem;
+  outline: none;
+  border: 1px solid #ddd;
+}
+.myIcon svg {
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.myIcon svg {
+  margin-right: 1rem;
+}
+.myIcon svg:hover {
+  transform: scale(1.2, 1.2);
+}

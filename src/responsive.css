@@ -1,0 +1,48 @@
+@media only screen and (min-width: 901px) {
+  .card-image > img {
+    height: max-content;
+    width: 700px;
+    object-fit: contain !important;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .flex-column {
+    flex-direction: column;
+  }
+  .flex-column li:hover {
+    background: #ddd;
+    margin-top: 1rem;
+  }
+  .flex-column .robot-txt,
+  .flex-column .robot-img {
+    width: 100%;
+  }
+  .b-1 {
+    width: 100% !important;
+  }
+  footer img {
+    margin-bottom: 3rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .txt h1 {
+    font-size: 35px;
+  }
+  .txt p {
+    font-size: 16px;
+  }
+  .w-60 {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .txt h1 {
+    font-size: 25px;
+  }
+  .txt p {
+    font-size: 14px;
+  }
+}

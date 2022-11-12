@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./components/header/Header";
+import "./common.css";
+import RoboticsLife from "./components/roboticslife/RoboticsLife";
+import "./responsive.css";
+import OurRobot from "./components/ourrobot/OurRobot";
+import Develop from "./components/develop/Develop";
+import MultiItems from "./components/news/News";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import Items from "./components/footer/Footer.jsx";
 
 function App() {
+  const [ListItem] = useState(Items);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <RoboticsLife />
+      <OurRobot />
+      <Develop />
+      <MultiItems />
+      <Contact />
+      <Footer listitem={ListItem} />
+    </>
   );
 }
 
