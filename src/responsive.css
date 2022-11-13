@@ -36,6 +36,9 @@
   .w-60 {
     width: 90% !important;
   }
+  .services__modal-services img {
+    height: 200px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
