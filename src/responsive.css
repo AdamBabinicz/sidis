@@ -43,6 +43,12 @@
   .services__modal-services img {
     height: 200px;
   }
+  .card-image > img {
+    height: 350px !important;
+  }
+  .btn {
+    margin-bottom: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 425px) {
