@@ -36,6 +36,9 @@
   .w-60 {
     width: 90% !important;
   }
+  .services__modal-content {
+    width: 95% !important;
+  }
   .services__modal-services img {
     height: 200px;
   }
