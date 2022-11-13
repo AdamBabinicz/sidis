@@ -43,11 +43,19 @@
   .services__modal-services img {
     height: 200px;
   }
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
   .card-image > img {
     height: 350px !important;
   }
   .btn {
     margin-bottom: 1.5rem;
+  }
+  .p-6 {
+    padding: 2rem 0 !important;
   }
 }
 
