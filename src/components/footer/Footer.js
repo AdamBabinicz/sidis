@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import img from "../../images/4.png";
+import img from "../../images/8.png";
 
 function Footer({ listitem }) {
   return (
